@@ -9,15 +9,6 @@ exports.getShifts = async (req, res, next) => {
         res.status(500).send('Error al obtener los turnos');
     }
 
-
-    // const resp = 
-    // // try {
-    // //     const [rows] = await pool.query('SELECT * FROM `tblShifts`')
-    // //     res.status(200).json(rows);
-    // // } catch (err) {
-    // //     res.status(500).send('Error al obtener los turnos');
-    // // }
-
 }
 
 exports.getShift = async (req, res, next) => {
